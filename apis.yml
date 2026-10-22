@@ -1,23 +1,100 @@
 aid: reece-group
+
 name: Reece Group
-description: 'Reece Group is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Reece Group (Reece Limited, ASX: REH) is a distributor of plumbing, waterworks, bathroom and HVAC-R products, operating around 800 branches across Australia, New Zealand and the United States and serving trade and consumer customers since 1920. Its brands include Reece (reece.com.au), Actrol, Viadux, Metalflex and, in the US, Reece USA and Fortiline. Its technology arm, ReeceTech, is based in Melbourne and publishes open-source repositories on GitHub. No public developer portal or API documentation was found on its sites.'
+
 url: https://raw.githubusercontent.com/api-evangelist/reece-group/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Plumbing
+- HVAC
+- Building Supplies
+- Distribution
+- Retail
+- Trade
+- Australia
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://www.datocms-assets.com/56870/1681713533-reece-group-logo.svg
+
 common:
+- type: Hosts
+  url: hosts/reece-group-hosts.yml
+- type: IntegrationEdges
+  url: integrations/reece-group-integration-edges.yml
+- type: Vendors
+  url: vendors/reece-group-vendors.yml
+- type: DomainSecurity
+  url: security/reece-group-domain-security.yml
 - type: Website
   url: https://reece.com.au/
+- type: CorporateWebsite
+  url: https://group.reece.com/
+- type: About
+  url: https://group.reece.com/who-we-are
+- type: Investors
+  url: https://group.reece.com/en-US/investors
+- type: News
+  url: https://group.reece.com/en-US/news
+- type: Blog
+  url: https://www.reece.com.au/articles
+- type: HelpCenter
+  url: https://www.reece.com.au/help/s/
+- type: Contact
+  url: https://www.reece.com.au/contact-us
+- type: TermsOfService
+  url: https://www.reece.com.au/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.reece.com.au/privacy
+- type: Careers
+  url: https://careers.reece.com/anz
+- type: GitHubOrganization
+  url: https://github.com/reecetech
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Identity from reece.com.au (footer config /api/site/consumer/footer) and group.reece.com. No developer portal, API docs, pricing, Postman or roadmap found. reecetech GitHub org blog field points to reecetech.com.au, which redirects to careers.reece.com.
+  evidence:
+  - url: https://www.reece.com.au/
+    status: 200
+  - url: https://group.reece.com/
+    status: 200
+  - url: https://github.com/reecetech
+    status: 200
+  - url: https://www.reecetech.com.au/
+    status: 200
+  - url: https://www.reece.com.au/help/s/
+    status: 200
+  - url: https://www.reece.com.au/terms-and-conditions
+    status: 200
+  - url: https://www.reece.com.au/privacy
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

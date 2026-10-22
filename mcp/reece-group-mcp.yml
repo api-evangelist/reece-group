@@ -1,0 +1,18 @@
+name: Reece Group MCP Server
+type: MCPServer
+generated: '2026-10-22'
+method: none
+status: none
+description: No official Reece Group MCP server (hosted or local) was found, and no OpenAPI or other public API contract exists in this repo from which a candidate tool list could be derived. This file records that checked-and-absent state.
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+tools: []
+evidence:
+- url: https://www.reece.com.au/llms.txt
+  status: 404
+- url: https://group.reece.com/llms.txt
+  status: 404
+- note: Pre-flight contract discovery (2026-10-22) on group.reece.com, www.reece.com.au, careers.reece.com, api.reece.com found no OpenAPI, AsyncAPI, GraphQL or MCP endpoint.
+- note: Web search for a Reece MCP server or developer API (2026-10-22) returned no results naming one.

@@ -1,0 +1,5 @@
+generated: '2026-10-22'
+method: none
+source: https://github.com/reecetech
+packages: []
+note: No first-party API client library or SDK exists (Reece publishes no public API). The reecetech GitHub org publishes general open-source tooling (e.g. pactman and django_informixdb on PyPI, GitHub Actions such as version-increment), which are not clients for a Reece API and are deliberately not listed. npm search for scope/maintainer reecetech returned 0 packages.

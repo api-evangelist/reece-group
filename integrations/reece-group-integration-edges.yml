@@ -1,0 +1,56 @@
+generated: '2026-10-22'
+method: searched
+source:
+- https://marketplace.simprogroup.com/apps/reece
+- https://zapier.com/apps/reece-group/integrations
+- https://n8n.io/integrations/reece-group/
+- https://composio.dev/toolkits/reece-group
+- https://monid.ai/tools/reece-group
+checked:
+- https://zapier.com/apps/reece/integrations
+- https://www.make.com/en/integrations/reece
+- https://n8n.io/integrations/reece/
+- https://fergus.com/marketplace/reece/
+- https://marketplace.simprogroup.com/apps/reece
+- https://help.fieldpulse.com/en/articles/8303250-integrating-fieldpulse-with-reece-max
+- https://help.fergus.com/en/articles/3640305-how-to-set-up-the-reece-integration
+- https://www.reece.com.au/developers
+- https://composio.dev/toolkits/reece-group
+- https://monid.ai/tools/reece-group
+- https://n8n.io/integrations/reece-group/
+- https://zapier.com/apps/reece-group/integrations
+summary: Reece publishes no developer portal or API documentation. Its integrations are documented on partner sites
+  (field-service / job-management software) that connect to a customer's Reece maX trade account for invoices, price
+  books and catalogs.
+marketplace_apps: []
+edges:
+- partner_name: Simpro
+  partner: simpro
+  partner_url: https://www.simprogroup.com/
+  partner_match: domain
+  type: marketplace
+  marketplace: simpro
+  relationship: platform-app
+  direction: unknown
+  evidence: https://marketplace.simprogroup.com/apps/reece
+  use_case: Reece listed in the Simpro marketplace ("Reece is a major public company and supplier of plumbing and
+    bathroom products."); supplier catalogs loaded into Simpro.
+- partner_name: FieldPulse
+  partner: fieldpulse
+  partner_url: https://www.fieldpulse.com/
+  partner_match: domain
+  type: docs
+  relationship: workflow
+  direction: unknown
+  evidence: https://help.fieldpulse.com/en/articles/8303250-integrating-fieldpulse-with-reece-max
+  use_case: Connect FieldPulse to Reece maX (ANZ) to add Reece items to estimates and purchase orders, then sync
+    supplier invoices back for job costing.
+- partner_name: Fergus
+  partner: null
+  type: docs
+  relationship: workflow
+  direction: unknown
+  evidence: https://help.fergus.com/en/articles/3640305-how-to-set-up-the-reece-integration
+  use_case: By connecting your Reece account, invoices will automatically be sent to your Fergus account and appear
+    in Supplier Documents; automated price books (Australia only).
+templates: []

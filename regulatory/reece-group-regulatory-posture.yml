@@ -1,0 +1,61 @@
+generated: '2026-10-22'
+method: searched
+source: https://www.reece.com.au/privacy
+signals:
+  data_subject_request:
+    url: https://www.reece.com.au/privacy
+    section: 'YOUR RIGHT OF ACCESS OR CORRECTION OF PERSONAL INFORMATION'
+    rights_named: [access, correction]
+    stated_sla: 'access to be provided to you in an appropriate manner within 14 days'
+    evidence:
+    - source: https://www.reece.com.au/privacy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'You may request access or correction of your personal information, credit information or credit eligibility information we hold about you at any time by sending us a written request.'
+    - source: https://www.reece.com.au/privacy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'Once our Privacy Officer has verified your identity, your request will be forwarded to our information systems manager who will arrange for access to be provided to you in an appropriate manner within 14 days.'
+    note: >-
+      Consumer Privacy Policy (Australia & New Zealand, last updated 20 July 2026) grants access and correction
+      rights under the Australian Privacy Principles, via written request to the Privacy Officer, with a stated
+      14-day access turnaround. No deletion or portability right is named.
+  data_residency:
+    url: https://www.reece.com.au/privacy
+    section: 'DISCLOSURE OF INFORMATION OUTSIDE AUSTRALIA'
+    countries: [New Zealand, Philippines, Singapore]
+    evidence:
+    - source: https://www.reece.com.au/privacy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'We may disclose your personal information including credit information or credit eligibility information (where applicable) to recipients located outside Australia. The countries in which those third party recipients may be located are: New Zealand, Philippines and Singapore.'
+    note: >-
+      An APP 8 cross-border disclosure statement naming the countries recipients may be in. It is a disclosure,
+      not a data-residency commitment: data may leave Australia.
+  subprocessors:
+    url: https://www.reece.com.au/privacy
+    evidence:
+    - source: https://www.reece.com.au/privacy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'We may disclose your personal information to the following third parties for the purposes listed above: (a) a related Reece entity; (b) organisations that provide us with professional advice, such as solicitors, accountants and business advisors; (c) third party contractors to whom we outsource certain functions, such as mailing houses, electronic network administrators, IT providers, security services and debt collection agencies;'
+    note: >-
+      Categories of recipients/outsourced processors only; no named subprocessor list was found on the
+      page. The policy adds that it implements contractual measures where possible to bind contractors to
+      Australian and New Zealand privacy standards.
+  data_retention:
+    url: https://www.reece.com.au/privacy
+    evidence:
+    - source: https://www.reece.com.au/privacy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'We will retain your personal information, only for as long as the information is needed for the purposes set out in this Privacy Policy and for any additional period that may be required or permitted by law. We destroy or delete your personal information once it is no longer needed or required to be kept by law.'
+    note: Purpose-bound retention with destruction or deletion afterwards; no fixed retention periods are stated.
+pages_read:
+- url: https://www.reece.com.au/privacy
+  http_status: 200
+  fetched: '2026-10-22'
+- url: https://www.reece.com.au/terms-and-conditions
+  http_status: 200
+  fetched: '2026-10-22'
+  note: 2,058 characters; the dossier found no regulatory signal language on it.
