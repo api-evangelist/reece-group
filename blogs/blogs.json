@@ -1,0 +1,14 @@
+{
+  "repo": "reece-group",
+  "feeds": [
+    {
+      "source": "https://www.reece.com.au/articles",
+      "feed_url": "https://www.reece.com.au/articles",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-24T12:29:31Z"
+}
